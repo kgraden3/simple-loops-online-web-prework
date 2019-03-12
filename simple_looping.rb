@@ -1,10 +1,10 @@
 # REMEMBER: print your output to the terminal using 'puts'
 
 def loop_iterator(number_of_times)
-  loop do # Code your solution here using the "loop" keyword to puts out the below phrase
-    puts "Welcome to Flatiron School's Web Development Course!"# This and all the other methods take an argument of an integer
-    counter = 1
-    if counter >= 7 # If our counter is 10 or more
+  loop do 
+    puts "Welcome to Flatiron School's Web Development Course!"
+    counter = counter + 1
+    if counter >= 10 # If our counter is 10 or more
     break # The integer is the number of times the loops should puts out the phrase
   # How can we make sure the loop breaks once it has puts out the phrase the
   #   correct number of times?
