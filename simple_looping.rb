@@ -47,7 +47,7 @@ def for_iterator(number_of_times)
   range = 1...7
   for number_of_times in range # code your solution here using the "for" keyword
   # remember that `for` requires a range of numbers. How can we turn our number into a range?
-    puts phrase
+    print phrase
     counter = counter + 1
   end
 end
